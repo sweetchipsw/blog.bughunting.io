@@ -18,6 +18,8 @@
 
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 
+<!-- <link href="{{ site.baseurl }}/assets/css/syntax.css" rel="stylesheet"> -->
+
 </head>
 
 {% if jekyll.environment == 'production' %}
@@ -50,6 +52,7 @@ ga('send', 'pageview');
     <!-- Begin Logo -->
     <a class="navbar-brand" href="{{ site.baseurl }}/">
     <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    {{ site.name }}
     </a>
     <!-- End Logo -->
 
@@ -68,13 +71,26 @@ ga('send', 'pageview');
                 {% else %}
                 <li class="nav-item">
                 {% endif %}
-                <a class="nav-link" href="{{ site.baseurl }}/index.html">Blog</a>
+                <a class="nav-link" href="{{ site.baseurl }}/index.html">✍️ Blog</a>
                 </li>
 
                 <li class="nav-item">
-                <a class="nav-link" href="{{ site.baseurl }}/about">About</a>
+                    <a class="nav-link" href="https://bughunting.io/about/">🍗 About</a>
                 </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/tags#BugBounty">🐞 Bug Bounty</a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/categories#ctf-writeup">✏️ CTF Write-ups</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="{{ site.baseurl }}/categories#projects">🧪 Projects</a>
+                </li>
+                <!-- 
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://bootstrapstarter.com/bootstrap-templates/template-mediumish-bootstrap-jekyll/"> Docs</a>
                 </li>
@@ -89,7 +105,7 @@ ga('send', 'pageview');
 
                 <li class="nav-item">
                 <a target="_blank" class="nav-link" href="https://github.com/wowthemesnet/mediumish-theme-jekyll"><i class="fab fa-github"></i> Fork on Github</a>
-                </li>
+                </li> -->
 
                 {% include search-lunr.html %}
 
@@ -110,12 +126,12 @@ ga('send', 'pageview');
 
 <!-- Site Title
 ================================================== -->
-<div class="mainheading">
+<!-- <div class="mainheading">
     <h1 class="sitetitle">{{ site.name }}</h1>
     <p class="lead">
         {{ site.description }}
     </p>
-</div>
+</div> -->
 
 <!-- Content
 ================================================== -->
@@ -126,7 +142,7 @@ ga('send', 'pageview');
 {% if site.mailchimp-list %}
 <!-- Bottom Alert Bar
 ================================================== -->
-<div class="alertbar">
+<!-- <div class="alertbar">
 	<div class="container text-center">
 		<span><img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{site.title}}"> &nbsp; Never miss a <b>story</b> from us, subscribe to our newsletter</span>
         <form action="{{site.mailchimp-list}}" method="post" name="mc-embedded-subscribe-form" class="wj-contact-form validate" target="_blank" novalidate>
@@ -136,7 +152,7 @@ ga('send', 'pageview');
             </div>
         </form>
 	</div>
-</div>
+</div> -->
 {% endif %}
     
 </div>
@@ -175,7 +191,7 @@ ga('send', 'pageview');
                 Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
             </div>
             <div class="col-md-6 col-sm-6 text-center text-lg-right">    
-                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net
+                <!-- <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a> by WowThemes.net -->
             </div>
         </div>
     </div>
