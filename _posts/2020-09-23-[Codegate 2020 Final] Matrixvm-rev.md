@@ -516,7 +516,7 @@ compare : mdict[3330][0][0] == 0
 참고
 
 - .dot() 는 numpy 의 `Dot product of two arrays` 를 수행하는 함수다. (행렬곱)
-- [https://numpy.org/doc/stable/reference/generated/numpy.dot.html](https://numpy.org/doc/stable/reference/generated/numpy.dot.html)
+- [공식문서](https://numpy.org/doc/stable/reference/generated/numpy.dot.html)
 
 파싱된 명령어가 꽤 많으니 가상화된 코드의 로직을 간단하게 정리하자면 아래와 같다.
 
