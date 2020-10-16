@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "[Codegate 2020 Final write-up] MatrixVM"
+title:  "[Codegate 2020 Final write-up] Matrixvm-Rev"
 author: sweetchip
 categories: [ ctf writeup ]
 tags: [ Codegate]
