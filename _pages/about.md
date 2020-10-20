@@ -4,8 +4,19 @@ title: About sweetchip
 permalink: /about
 ---
 
-- Computer Security Resercher at Grayhash
+- Former Computer Security Resercher at Grayhash
 - Undergraduate student of Computer and Information Security Department at Sejong University (2014 ~ )
+
+## Interesting
+- Finding security vulnerability in Software and Web service. 
+
+## Work Experience
+- Assistant research engineer at Grayhash (2014.09 ~ 2016.04, 2018.02 ~ 2020.04)
+  - Developing wargame, security education platform service with Vue.js, Django for workers in LINE Plus.
+  - Penetration testing(including APT projects) and reviewing source code for cryptocurrency exchange, messenger service, online game service and multiple web services which has 1M+ users.
+  - Researching security vulnerability in Browsers, Kernel drivers, Windows applications and so on.
+  - Serving security training several times for clients.
+   - Browser hacking training : How to analyse vulnerability in browsers, write a exploit code on Windows os, Bypass mitigations of browsers.
 
 ## Bughunting
 ### Bug hunting (Global)
@@ -27,6 +38,7 @@ permalink: /about
 - Google Chromium/PDFIUM Stack-buffer-overflow in CalculateString (None CVE)
 - Google Chromium/Skia Integer Overflow vulnerability (None CVE)
 - Adobe Flash Player/PCRE2 Out Of Bound Read Information Disclosure vulnerability (None CVE)
+- Safari RCE by Race condition (No cve)
 
 ### Bug hunting (Korea)
 
