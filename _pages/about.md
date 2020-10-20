@@ -8,7 +8,8 @@ permalink: /about
 - Undergraduate student of Computer and Information Security Department at Sejong University (2014 ~ )
 
 ## Work Experience
-- Assistant research engineer at Grayhash (2014.09 ~ 2016.04, 2018.02 ~ 2020.04)
+- Intern, Grayhash (2014.09 ~ 2014.12)
+- Assistant research engineer, Grayhash (2015.01 ~ 2016.04, 2018.02 ~ 2020.04)
   - Developing wargame, security education platform service with Vue.js, Django for workers in LINE Plus.
   - Penetration testing(including APT projects) and reviewing source code for cryptocurrency exchange, messenger service, online game service and multiple web services which has 1M+ users.
   - Researching security vulnerability in Browsers, Kernel drivers, Windows applications and so on.
@@ -51,10 +52,6 @@ permalink: /about
 - 2 for ZIO router Command Injection vulnerability (2016)
 - WEVO router Command Injection vulnerability (2016)
 
-## Work Experience
-
-- Assistant Research Engineer, Grayhash (2015.01 ~ )
-- Intern, Grayhash (2014.09 ~ 2014.12)
 
 ## Campus Activities
 
