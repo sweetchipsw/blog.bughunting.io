@@ -4,11 +4,8 @@ title: About sweetchip
 permalink: /about
 ---
 
-- Former Computer Security Resercher at Grayhash
+- Former Assistant research engineer at Grayhash
 - Undergraduate student of Computer and Information Security Department at Sejong University (2014 ~ )
-
-## Interesting
-- Finding security vulnerability in Software and Web service. 
 
 ## Work Experience
 - Assistant research engineer at Grayhash (2014.09 ~ 2016.04, 2018.02 ~ 2020.04)
